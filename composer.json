@@ -1,0 +1,22 @@
+{
+    "name": "legiaifenix/you-were-slacked",
+    "description": "A package to help integrate custom slack messages between apis and slack",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diogo Santo",
+            "email": "legiaifenix@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "legiaifenix\\youWereSlacked\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.*",
+        "monolog/monolog": "^2.0@dev"
+    }
+}
